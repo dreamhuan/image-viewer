@@ -1,5 +1,6 @@
 # Ionic image viewer page
 
+enjoy(use mobile please): [click me](https://dreamhuan.github.io/image-viewer/www/index.html)
 ## Advantage
 
 1. not plugin just page
