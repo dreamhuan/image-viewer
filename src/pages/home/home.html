@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Ionic image viewer</h2>
+  <p>
+    view image in modal page by using HTML5 canvas api
+  </p>
+  <p>
+    just try (click image)
+  </p>
+  <img src="assets/imgs/a.jpg" (click)="viewImage('assets/imgs/a.jpg')"><br/>
+  <img src="assets/imgs/b.jpg" (click)="viewImage('assets/imgs/b.jpg')"><br/>
+  <img src="assets/imgs/c.jpg" (click)="viewImage('assets/imgs/c.jpg')"><br/>
+</ion-content>

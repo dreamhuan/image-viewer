@@ -1,0 +1,21 @@
+<ion-header>
+  <div class="buttons">
+    <button class="rotate-button" (click)="clockwise()">
+      <ion-icon name="ios-redo"></ion-icon>
+      90°
+    </button>
+    <button class="rotate-button" (click)="counterclockwise()">
+      <ion-icon name="ios-undo"></ion-icon>
+      90°
+    </button>
+    <button class="rotate-button" (click)="resetImage()">
+      <ion-icon name="ios-image"></ion-icon>
+      init
+    </button>
+    <button class="cancel-button" (click)="dismiss()">close</button>
+  </div>
+</ion-header>
+
+<ion-content #content>
+  <canvas #canvas></canvas>
+</ion-content>
